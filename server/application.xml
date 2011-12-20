@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+
+	<id>com.adobe.hoyt.WebSocket</id>
+	<filename>WebSocket</filename>
+	<name>WebSocket</name>
+	<version>1.0</version>
+	<description>Testing WebSocket</description>
+
+	<initialWindow>
+		<content>server.html</content>
+		<title>WebSocket Server</title>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>true</maximizable>
+		<resizable>true</resizable>
+		<width>640</width>
+		<height>480</height>
+		<minSize>640 480</minSize>
+	</initialWindow>
+
+</application>

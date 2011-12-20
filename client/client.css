@@ -1,0 +1,96 @@
+body {
+	background-image: url( images/black_grundge.jpg );
+	background-repeat: repeat;			
+}
+
+#chrome {
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	border-width: 59 17 17 17; 
+	-webkit-border-image: url( images/desktop_panel.png ) 59 17 17 17 stretch stretch;	
+}
+
+#title {
+	position: absolute;
+	left: -2px;
+	top: -43px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #2C2C2C;
+	-webkit-user-select: none;
+	cursor: default;				
+}
+
+#workspace {
+	position: absolute;
+	bottom: 41px;
+	left: -3px;
+	right: -3px;
+	top: 4px;
+	border-width: 1 2 2 2; 
+	-webkit-border-image: url( images/workspace.png ) 1 2 2 2 stretch stretch;				
+}
+
+.button {
+	background-image: url( images/button_skin.png );
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 31px;
+	position: absolute;			
+}
+
+#conn {
+	position: absolute;
+	width: 130px;
+	height: 32px;
+	left: -3px;
+	bottom: 0px;
+	-webkit-border-image: url( images/button_skin.png ) 0 4 0 4 stretch stretch;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #2C2C2C;
+	-webkit-user-select: none;
+	cursor: default;
+	line-height: 32px;
+	text-align: center;										
+}
+
+#control {
+	position: absolute;
+	width: 90px;
+	height: 32px;
+	right: -3px;
+	bottom: 0px;
+	-webkit-border-image: url( images/button_skin.png ) 0 4 0 4 stretch stretch;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #2C2C2C;
+	-webkit-user-select: none;
+	cursor: default;
+	line-height: 32px;
+	text-align: center;										
+}	
+
+#graph {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 152px;
+	width: 402px;
+}
+
+#symbols {
+	position: absolute;
+	left: 30px;
+	top: 240px;
+}
+
+#symbols a{
+	color: #000000;
+	padding:5px;
+}
+
+.selected {
+	font-weight:bold;
+}

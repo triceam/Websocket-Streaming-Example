@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Upgrade: WebSocket
+Connection: Upgrade
+Host: 127.0.0.1:1234
+Origin: file://
+Cookie: CFTOKEN=81462210; CFID=1400
+Sec-WebSocket-Key1: 2  6   50  U7(4*C h$Nu58G    20
+Sec-WebSocket-Key2: F F 3t R ,09 911  2  23 }0
+
+.0¢xÙ@me

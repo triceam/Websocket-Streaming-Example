@@ -1,0 +1,9 @@
+Sample application demonstrating data push using web sockets.  Server written using Adobe AIR: http://www.adobe.com/special/products/air/sdk/   
+
+Client only tested in Google Chrome.   
+
+This example also uses 
+* jQuery:	http://jquery.com/
+* RGraph:	http://www.rgraph.net/
+
+More detail available at http://www.tricedesigns.com/?p=1084
